@@ -1,0 +1,30 @@
+{
+  "generator-angularjs-library": {
+    "props": {
+      "author": {
+        "name": "Niels Swimberghe",
+        "email": "nielsswimberghe@gmail.com"
+      },
+      "libraryName": {
+        "original": "ng-insta-card",
+        "camelized": "ngInstaCard",
+        "dasherized": "ng-insta-card",
+        "slugified": "ng-insta-card",
+        "parts": [
+          "ng",
+          "insta",
+          "card"
+        ]
+      },
+      "includeModuleDirectives": false,
+      "includeModuleFilters": false,
+      "includeModuleServices": false,
+      "includeAngularModuleResource": false,
+      "includeAngularModuleCookies": false,
+      "includeAngularModuleSanitize": false,
+      "librarySrcDirectory": "src/ng-insta-card",
+      "libraryUnitTestDirectory": "test/unit/ng-insta-card",
+      "libraryUnitE2eDirectory": "test/e2e/ng-insta-card"
+    }
+  }
+}

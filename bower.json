@@ -1,0 +1,22 @@
+{
+  "name": "ng-insta-card",
+  "version": "0.1.0",
+  "authors": [
+    {
+      "name": "Niels Swimberghe",
+      "email": "nielsswimberghe@gmail.com"
+    }
+  ],
+  "main": ["dist/ngInstaCard.js"],
+  "ignore": [
+    "src",
+    "test",
+    "gulpfile.js",
+    "karma-*.conf.js",
+    "**/.*"
+  ],
+  "dependencies": {
+    "angular": ">=1.2.0"
+    },
+  "devDependencies": {}
+}
