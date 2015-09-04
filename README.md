@@ -23,9 +23,9 @@ Include the Instagram library, and include the directive module.
 
 ```html
 <script src="http://platform.instagram.com/en_US/embeds.js"></script>
-<script src="bower/ng-insta-card/dist/ngInstaCard.min.js"></script>
+<script src="bower/ng-insta-card/dist/ng-insta-card.min.js"></script>
 ```
-
+Include 'ng-insta-card' in your dependencies.
 Now you can create a Instagram card with the following markup.
 
 ```html
