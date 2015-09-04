@@ -8,7 +8,7 @@
  * @description
  * # instaCard
  */
-angular.module('ng-insta-card')
+angular.module('ng-insta-card',[])
   .directive('instaCard',['$window', function ($window) {
     return {
       templateUrl: 'ngInstaCard.html',
