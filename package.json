@@ -1,6 +1,9 @@
 {
   "name": "ng-insta-card",
   "version": "0.1.0",
+  "keywords": [
+    "angularjs","angular","instagram","directive","widgets"
+  ],
   "author": {
     "name": "Niels Swimberghe",
     "email": "nielsswimberghe@gmail.com"

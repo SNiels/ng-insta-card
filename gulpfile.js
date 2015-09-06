@@ -34,11 +34,11 @@ var lintFiles = [
 gulp.task('build', function() {
   gulp.src(sourceFiles)
     .pipe(plumber())
-    .pipe(concat('ng-insta-card.js'))
+    .pipe(concat('ngInstaCard.js'))
     .pipe(embedTemplates())
     .pipe(gulp.dest('./dist/'))
     .pipe(uglify())
-    .pipe(rename('ng-insta-card.min.js'))
+    .pipe(rename('ngInstaCard.min.js'))
     .pipe(gulp.dest('./dist'));
 });
 
